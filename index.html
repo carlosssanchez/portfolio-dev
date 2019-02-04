@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Carlos Sanchez Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- W3 CSS Import -->
+    <link rel="stylesheet" href="w3.css">
+    <!-- Font Awesome Icons Import -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+		<script src="d3.min.js" charset="utf-8"></script>
+    <!-- End Page Head -->
+</head>
+<!-- Page Body -->
+<body>
+    <!-- Page Container -->
+    <div class="page-container">
+        <!-- The Grid -->
+        <div class="page-grid">
+            <!-- Left Column -->
+            <div class="grid-left" >
+                <div class="w3-card-noborder" >
+                    <!-- Profile Picture -->
+                    <!--<img src=".\Pensive Parakeet.jpg" class="profilepic" alt="Profile Picture">-->
+                    <!-- Justified Title with my name. -->
+                    <div id="name" class="title">
+                        Carlos Sánchez
+                    </div>
+                    <hr style="margin-bottom:0;margin-top:10px">
+                    <div class="w3-container">
+                        <!-- Bullet Point Descriptions -->
+
+												<!-- Github -->
+												<p  class="link light-teal">
+                          <a id="github" href="https://github.com/carlosssanchez"><i class="fa fa-github fa-fw size-xl nomargin-r" aria-hidden="true"></i> Github </a></p>
+												<!-- LinkedIN -->
+												<p class="link light-teal">
+                          <a id="linkedin" href="https://linkedin.com/in/CarlosSSanchez"><i class="fa fa-linkedin fa-fw size-xl nomargin-r" aria-hidden="true"></i>LinkedIn</a></p>
+							 					<!-- Email -->
+												<p class="link light-teal">
+                          <a id="email" href="#"> <i class="fa fa-envelope fa-fw size-xl nomargin-r" aria-hidden="true"></i> <img src="email-plain.svg" alt="Email Address" class="svg light-teal" style="margin-left: 0px;"> </a> </p>
+												<!-- Resume -->
+												<p class="link light-teal">
+													<a id="resume" href="/resume.pdf"><i class="fa fa-download fa-fw size-xl nomargin-r" aria-hidden="true"></i> Resume  </a> </p>
+                        <hr>
+
+                        <!-- Skills -->
+                        <p id="skills" class="size-l"><b><i class="fa fa-line-chart fa-fw" aria-hidden="true"></i>Skills</b></p>
+                            <p class="bar-text" id="BackEnd"> Back-End Stack </p>
+                            <!-- <div class="skillbar-container">
+                                <div class="w3-container skillbar" style="width:100%"> 2+ Years Experience </div>
+                            </div> -->
+
+                            <p class="bar-text" id="FrontEnd"> Front-End Stack</p>
+
+														<p class="bar-text" id="Other"> Other Stacks   </p>
+                            <!-- <div class="skillbar-container">
+                                <div class="w3-container skillbar" style="width:70%">  </div>
+                            </div> -->
+
+														<script type="text/javascript">
+														let BackEndMap = {"Python": 3, "SQL":3, "C / C++":2, "Java":1, ".NET": 1};
+														let FrontEndMap = {"Python":3, "HTML / CSS / JavaScript": 3, "Hugo": 3, "Electron":1, "React":1 };
+                            let OtherMap = {"Linux": 3, "Custom parsers for internal tooling": 3, "MS Excel": 3,
+                                            "Google Sheets for automation": 3, "RaspberryPi": 3, "Arduino": 2};
+
+														// "D3 JS":1
+
+														function fillMap(mapName, id) {
+															for (var skill in mapName) {
+																document.getElementById(id).innerHTML = document.getElementById(id).innerHTML + '<div class="skillbar-container"> <div class="w3-container skillbar" style="margin-top:2px; width:' + mapName[skill]/3 * 100 + '%"> ' + skill + ' </div> </div>';
+															}
+														}
+														fillMap(BackEndMap,"BackEnd");
+														fillMap(FrontEndMap, "FrontEnd");
+														fillMap(OtherMap, "Other");
+														</script>
+                            <!--<p class="bar-text"> Software Development (Java, C++)</p>
+                            <div class="skillbar-container">
+                                <div class="w3-container skillbar" style="width:40%">Low Experience</div>
+                            </div>-->
+
+                            <!-- <p class="bar-text" id="Machine Learning"> Machine Learning (Keras, Theano, TensorFlow)</p>
+                            <div class="skillbar-container">
+                                <div class="w3-container skillbar" style="width:40%"> Learner</div>
+                            </div> -->
+                            <br>
+                        <!-- Languages -->
+                        <p id="lang" class="size-l"><i class="fa fa-language fa-fw "></i>Fluent in Spanish &amp; English</p>
+												<p id="citizen" class="size-l"><i class="fa fa-flag fa-fw "></i>U.S. citizen </p>
+                        <br>
+                    </div>
+                </div><br>
+                <!-- End Left Column -->
+            </div>
+
+            <!-- Right Column -->
+            <div class="grid-right" style="position:relative;margin-bottom:23px">
+                <!-- About Me -->
+                <div id="aboutme" class="w3-container w3-card-2 w3-white w3-margin-bottom" >
+                    <h2 class="w3-padding-16 title-margin"><i class="fa fa-user fa-fw  size-xxl"></i>About Me</h2>
+                    <div class="w3-container">
+                        <p style="margin-top:0">
+                            Studied Computer Science at Rice University in Houston, TX. Since then, I've worked 3 years in Mathematics education as a teacher and private tutor teaching Math, Statistics and Programming to high school and college students in Puerto Rico.
+														I also have 2 years working in Python and web development. I have worked in projects building internal automation tools, databases, cryptocurrency analysis and IOT devices.
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Work Experience -->
+                <div id="work" class="w3-container w3-card-2 w3-margin-bottom">
+                    <h2 class="w3-padding-16 title-margin"><i class="fa fa-suitcase fa-fw size-xxl light-teal"></i>Work Experience</h2>
+                    <div class="w3-container">
+                        <h5><b>Freelance Developer &amp; Math Tutor</b></h5>
+                        <h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>January 2017 - <span class="w3-tag light-teal-fill w3-round">Present</span></h6>
+                        <p>Freelance IT and web developer.
+													<p>Mathematics, Statistics and Programming tutor Monday-Saturday.</p>
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5><b>Math Teacher &amp; Tutor</b></h5>
+                        <h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>August - December 2016</h6>
+                        <p>Math teacher at Manuel Cuevas Middle School. Math tutor after-school at iQRX PR.</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5><b>Developer of Programming &amp; Robotics Workshop at iQRX PR</b></h5>
+                        <h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>June - July 2016</h6>
+                        <p>Developed and taught 2 beginner courses introducing Python and Arduino for beginners.</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5><b>IT Consultant</b></h5>
+                        <h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>January - May 2016</h6>
+                        <p>Developer of several full-stack document processing apps and database systems to automate data processing of big data files and thousands of physical forms for private companies and government agencies. </p>
+												<hr>
+                    </div>
+										<div class="w3-container">
+                        <h5><b>NASA Summer Internship</b></h5>
+                        <h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>June - July 2010</h6>
+                        <p>Developed database using Microsoft Access and SQL to store and process Change Request and Variance forms for the Safety and Mission Assurance dept. Studied database design and integration with Linux system management.</p>
+                    </div>
+                </div>
+                <!-- Education -->
+                <div id="education" class="w3-container w3-card-2 w3-white">
+                    <h2 class="w3-padding-16 title-margin"><i class="fa fa-graduation-cap fa-fw size-xxl"></i>Education</h2>
+
+										<div class="w3-container">
+											<h5><b>Machine Learning Online Courses</b></h5>
+											<h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i><span class="w3-tag light-teal-fill w3-round">Present</span></h6>
+											<p>Completed ML courses from Andrew Ng and SuperDataScience. Intent to continue formal studies in this field.</p>
+											<hr>
+										</div>
+
+										<div class="w3-container">
+											<h5><b>Rice University MOOC</b></h5>
+											<h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>August - December 2016</h6>
+											<p>Global Financial Markets and Instruments </p>
+											<p>Probability for Actuaries </p>
+											<hr>
+										</div>
+
+                    <div class="w3-container">
+                        <h5><b>Rice University</b></h5>
+                        <h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>2011-2015</h6>
+                        <p> B.A. Mathematics (unfinished)</p>
+                        <hr>
+                    </div>
+
+
+                </div>
+
+                <!-- End Right Column -->
+            </div>
+
+            <!-- End Grid -->
+        </div>
+
+        <!-- End Page Container -->
+    </div>
+
+    <!-- End Page Body -->
+</body>
+</html>

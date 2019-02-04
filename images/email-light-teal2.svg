@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 280 27"
+   height="27"
+   width="280">
+  <defs
+     id="defs4">
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient5584">
+      <stop
+         id="stop5586"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-1025.3622)"
+     id="layer1">
+    <text
+       transform="scale(1.3430462,0.744576)"
+       id="text3336"
+       y="1411.9165"
+       x="-19.982183"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.95031548px;line-height:125%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;fill-opacity:1"
+         y="1411.9165"
+         x="-19.982183"
+         id="tspan3338" /></text>
+    <text
+       id="text5619"
+       y="1047.3622"
+       x="-5.6304714e-007"
+       style="font-style:normal;font-weight:normal;font-size:22.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00786a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.99;"
+       xml:space="preserve"><tspan
+         style="-inkscape-font-specification:FontAwesome;font-family:FontAwesome;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:17.5px;fill:#00786a;fill-opacity:1;"
+         y="1047.3622"
+         x="-5.6304714e-007"
+         id="tspan5621">carlos @ cssanchez.com</tspan></text>
+  </g>
+</svg>
